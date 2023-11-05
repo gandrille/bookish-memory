@@ -38,11 +38,11 @@ jobs:
     steps:
     
       - name: step1
-        if: ${{ env.foo }}
+        if: ${{ env.foo == "true" }}
         run: echo "is true"
 
       - name: step2
-        if: ${{ ! env.foo }}
+        if: ${{ env.foo == "false" }}
         run: echo "is false"
 
 
