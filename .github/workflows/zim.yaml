@@ -38,9 +38,9 @@ jobs:
     steps:
     
       - name: step1
-        run: echo "hello "$foo"
+        run: echo "hello $foo"
 
       - name: step2
-        run: echo "hello "$foo"
+        run: echo "hello $foo"
 
 
