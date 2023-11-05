@@ -44,4 +44,7 @@ jobs:
         if: ${{ env.foo == 'false' }}
         run: echo "is false"
 
+      - name: step2
+        if: ${{ env.foo == '' }}
+        run: echo "is empty"
 
