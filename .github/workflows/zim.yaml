@@ -34,7 +34,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ZIM_VERSION: 0.75.2
-      foo: false
     steps:
     
       - name: step1
