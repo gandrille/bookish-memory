@@ -38,6 +38,7 @@ jobs:
     steps:
     
       - name: step1
+        if: ${{ env.foo == 'bar' }}
         run: echo "hello $foo"
 
       - name: step2
